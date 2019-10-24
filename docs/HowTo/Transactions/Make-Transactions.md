@@ -19,7 +19,7 @@ by EthSigner.
 # eea_sendTransaction 
 
 Creates and signs a [private transaction](https://docs.pantheon.pegasys.tech/en/stable/Privacy/Privacy-Overview/)
-using the [keystore account](../Using-EthSigner/Getting-Started.md#create-password-and-key-files). 
+using the [keystore account](../Get-Started/Getting-Started.md#create-password-and-key-files). 
 
 EthSigner submits the signed transaction to Pantheon using [`eea_sendRawTransaction`](https://docs.pantheon.pegasys.tech/en/stable/Reference/Pantheon-API-Methods/#eea_sendrawtransaction). 
 
@@ -70,7 +70,7 @@ Transaction object for private transactions:
 
 # eth_accounts
 
-Returns the account address with which EthSigner is signing transactions. That is, the account of the [keystore key file](../Using-EthSigner/Getting-Started.md#create-password-and-key-files).
+Returns the account address with which EthSigner is signing transactions. That is, the account of the [keystore key file](../Get-Started/Getting-Started.md#create-password-and-key-files).
 
 **Parameters**
 
@@ -95,7 +95,7 @@ None
 
 # eth_sendTransaction 
 
-Creates and signs a transaction using the [keystore account](../Using-EthSigner/Getting-Started.md#create-password-and-key-files). 
+Creates and signs a transaction using the [keystore account](../Get-Started/Getting-Started.md#create-password-and-key-files). 
 
 EthSigner submits the signed transaction to Pantheon using [`eth_sendRawTransaction`](https://docs.pantheon.pegasys.tech/en/stable/Reference/JSON-RPC-API-Methods/#eth_sendrawtransaction). 
 
